@@ -1,0 +1,19 @@
+---
+label: pubs
+hide_body: false
+is_partial: false
+fields:
+- type: include
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: content
+  label: content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: file
+  name: files
+  label: files
