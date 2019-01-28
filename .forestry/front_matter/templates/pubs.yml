@@ -17,3 +17,5 @@ fields:
 - type: file
   name: files
   label: files
+pages:
+- test-page.md
